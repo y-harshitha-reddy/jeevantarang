@@ -25,7 +25,7 @@ from sklearn.metrics import confusion_matrix, classification_report
 
 # Load dataset from Excel file
 def load_data(file_path):
-    data = pd.read_excel(r"C:\Users\dhoni\Music\jt2\Endangered_Species_Dataset.xlsx")
+    data = pd.read_excel(r"Endangered_Species_Dataset.xlsx")
     return data
 
 def preprocess_data(data):
