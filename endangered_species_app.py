@@ -1,6 +1,6 @@
 import pandas as pd
 pip install -r requirements.txt
-
+pip install --upgrade pip  
 import numpy as np
 from sklearn.preprocessing import LabelEncoder, StandardScaler
 import streamlit as st
